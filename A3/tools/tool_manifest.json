@@ -1,0 +1,11 @@
+{
+  "release": "v0.1.0",
+  "release_url": "https://github.com/ljh-sh/kenlm/releases/tag/v0.1.0",
+  "published_at": "2026-06-29T14:11:23Z",
+  "asset_url": "https://github.com/ljh-sh/kenlm/releases/download/v0.1.0/kenlm-x86_64-windows.zip",
+  "sha256": "c4095777f39a96710232c3a8aad948df76452bc89000104967d8e993c771c230",
+  "packager_repo": "https://github.com/ljh-sh/kenlm",
+  "upstream_repo": "https://github.com/kpu/kenlm",
+  "upstream_commit_documented": "4cb443e",
+  "distribution_note": "第三方 Windows 打包；上游为 kpu/kenlm。"
+}

@@ -1,0 +1,203 @@
+[
+  {
+    "order": 2,
+    "repeat": 1,
+    "wall_seconds": 3.7969108999996024,
+    "arpa_bytes": 11154707,
+    "arpa_sha256": "b647cf36f0211cdf802110246b85aec1e27f361220cc553aa9ac04e74c32840e",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "2",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 3,
+    "repeat": 1,
+    "wall_seconds": 15.232109200000195,
+    "arpa_bytes": 37486807,
+    "arpa_sha256": "8de418dec4ab68dd881354b73bb8e748dbb04667a7c27bf188172a91b0ea5362",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002,
+      "3": 707502
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "3",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 5,
+    "repeat": 1,
+    "wall_seconds": 27.92231779999929,
+    "arpa_bytes": 119103740,
+    "arpa_sha256": "eda7c9e5d2c2c3642c51380ccbc23110b26e30348eacfbddd9661d5b2be63a3a",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002,
+      "3": 707502,
+      "4": 809396,
+      "5": 828629
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "5",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 3,
+    "repeat": 2,
+    "wall_seconds": 16.024279600000227,
+    "arpa_bytes": 37486807,
+    "arpa_sha256": "8de418dec4ab68dd881354b73bb8e748dbb04667a7c27bf188172a91b0ea5362",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002,
+      "3": 707502
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "3",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 5,
+    "repeat": 2,
+    "wall_seconds": 27.330260100000487,
+    "arpa_bytes": 119103740,
+    "arpa_sha256": "eda7c9e5d2c2c3642c51380ccbc23110b26e30348eacfbddd9661d5b2be63a3a",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002,
+      "3": 707502,
+      "4": 809396,
+      "5": 828629
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "5",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 2,
+    "repeat": 2,
+    "wall_seconds": 4.350925200000347,
+    "arpa_bytes": 11154707,
+    "arpa_sha256": "b647cf36f0211cdf802110246b85aec1e27f361220cc553aa9ac04e74c32840e",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "2",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 5,
+    "repeat": 3,
+    "wall_seconds": 26.88454660000025,
+    "arpa_bytes": 119103740,
+    "arpa_sha256": "eda7c9e5d2c2c3642c51380ccbc23110b26e30348eacfbddd9661d5b2be63a3a",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002,
+      "3": 707502,
+      "4": 809396,
+      "5": 828629
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "5",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 2,
+    "repeat": 3,
+    "wall_seconds": 3.6169129999998404,
+    "arpa_bytes": 11154707,
+    "arpa_sha256": "b647cf36f0211cdf802110246b85aec1e27f361220cc553aa9ac04e74c32840e",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "2",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  },
+  {
+    "order": 3,
+    "repeat": 3,
+    "wall_seconds": 15.723890199999914,
+    "arpa_bytes": 37486807,
+    "arpa_sha256": "8de418dec4ab68dd881354b73bb8e748dbb04667a7c27bf188172a91b0ea5362",
+    "ngram_counts": {
+      "1": 49271,
+      "2": 389002,
+      "3": 707502
+    },
+    "command": [
+      "lmplz",
+      "-o",
+      "3",
+      "-S",
+      "256M",
+      "-T",
+      "temp/"
+    ],
+    "discount_fallback_used": false
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "numpy": "2.3.5",
+  "logical_cpus": 16,
+  "date": "2026-10-08",
+  "memory_limit": "256 MiB sorting RAM",
+  "replicates": 3,
+  "note": "顺序轮换，重复测量不等于独立机器；时间含 lmplz 读语料和写 ARPA，排除下载、清洗、二进制转换及文件哈希。"
+}

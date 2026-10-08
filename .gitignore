@@ -1,0 +1,24 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Private configuration
+.env
+.env.*
+*.pem
+*.key
+# Reproducible local artifacts
+A3/data/
+A3/models/
+A3/temp/
+A3/rerun/
+A3/tools/bin/
+A3/tools/*.zip
+A3/tools/*.tar.gz
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

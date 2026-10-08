@@ -1,0 +1,98 @@
+[
+  {
+    "order": 2,
+    "config": "greedy",
+    "runs": 1,
+    "mean_generated_tokens": 11,
+    "eos_count": 1,
+    "mean_repetition_ratio": 0.0
+  },
+  {
+    "order": 3,
+    "config": "greedy",
+    "runs": 1,
+    "mean_generated_tokens": 1,
+    "eos_count": 1,
+    "mean_repetition_ratio": 0.0
+  },
+  {
+    "order": 5,
+    "config": "greedy",
+    "runs": 1,
+    "mean_generated_tokens": 1,
+    "eos_count": 1,
+    "mean_repetition_ratio": 0.0
+  },
+  {
+    "order": 2,
+    "config": "top-k 50, T=0.7",
+    "runs": 3,
+    "mean_generated_tokens": 15.666666666666666,
+    "eos_count": 3,
+    "mean_repetition_ratio": 0.20952380952380953
+  },
+  {
+    "order": 3,
+    "config": "top-k 50, T=0.7",
+    "runs": 3,
+    "mean_generated_tokens": 16.666666666666668,
+    "eos_count": 3,
+    "mean_repetition_ratio": 0.10944444444444446
+  },
+  {
+    "order": 5,
+    "config": "top-k 50, T=0.7",
+    "runs": 3,
+    "mean_generated_tokens": 6,
+    "eos_count": 3,
+    "mean_repetition_ratio": 0.0
+  },
+  {
+    "order": 2,
+    "config": "top-k 50, T=1.2",
+    "runs": 3,
+    "mean_generated_tokens": 4,
+    "eos_count": 3,
+    "mean_repetition_ratio": 0.033333333333333326
+  },
+  {
+    "order": 3,
+    "config": "top-k 50, T=1.2",
+    "runs": 3,
+    "mean_generated_tokens": 25.333333333333332,
+    "eos_count": 3,
+    "mean_repetition_ratio": 0.08592592592592592
+  },
+  {
+    "order": 5,
+    "config": "top-k 50, T=1.2",
+    "runs": 3,
+    "mean_generated_tokens": 33,
+    "eos_count": 3,
+    "mean_repetition_ratio": 0.15555974092559455
+  },
+  {
+    "order": 2,
+    "config": "top-p 0.9, T=1.0",
+    "runs": 3,
+    "mean_generated_tokens": 26,
+    "eos_count": 2,
+    "mean_repetition_ratio": 0.0739942528735632
+  },
+  {
+    "order": 3,
+    "config": "top-p 0.9, T=1.0",
+    "runs": 3,
+    "mean_generated_tokens": 30,
+    "eos_count": 2,
+    "mean_repetition_ratio": 0.07516339869281045
+  },
+  {
+    "order": 5,
+    "config": "top-p 0.9, T=1.0",
+    "runs": 3,
+    "mean_generated_tokens": 46.333333333333336,
+    "eos_count": 1,
+    "mean_repetition_ratio": 0.1584302325581395
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "order": 2,
+    "arpa_bytes": 11154707,
+    "binary_bytes": 8712051,
+    "dev": {
+      "ppl_including_oov": 612.5480085970016,
+      "ppl_excluding_oov": 469.75695918569136,
+      "oovs": 3541,
+      "tokens": 102446
+    },
+    "test": {
+      "ppl_including_oov": 664.3557303428012,
+      "ppl_excluding_oov": 496.68473524064973,
+      "oovs": 4962,
+      "tokens": 130536
+    }
+  },
+  {
+    "order": 3,
+    "arpa_bytes": 37486807,
+    "binary_bytes": 23781107,
+    "dev": {
+      "ppl_including_oov": 494.59649280826716,
+      "ppl_excluding_oov": 376.69983526937153,
+      "oovs": 3541,
+      "tokens": 102446
+    },
+    "test": {
+      "ppl_including_oov": 547.3418244110114,
+      "ppl_excluding_oov": 406.42208944427676,
+      "oovs": 4962,
+      "tokens": 130536
+    }
+  },
+  {
+    "order": 5,
+    "arpa_bytes": 119103740,
+    "binary_bytes": 62366955,
+    "dev": {
+      "ppl_including_oov": 479.46692500528155,
+      "ppl_excluding_oov": 365.04858572530486,
+      "oovs": 3541,
+      "tokens": 102446
+    },
+    "test": {
+      "ppl_including_oov": 534.5484790284357,
+      "ppl_excluding_oov": 396.87480139489367,
+      "oovs": 4962,
+      "tokens": 130536
+    }
+  }
+]

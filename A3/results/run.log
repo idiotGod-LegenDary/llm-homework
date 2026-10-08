@@ -1,0 +1,13 @@
+PREPARED {"train": {"articles": 2535, "paragraphs": 15205, "tokens": 889381, "bytes": 5286340, "oov_tokens": 0, "sha256": "c9a03086ddda6c0b0b30f03033e5c4d20cec06d597a30ec3e030e2abca8f4e82"}, "dev": {"articles": 287, "paragraphs": 1725, "tokens": 100721, "bytes": 601261, "oov_tokens": 3541, "sha256": "d59e9a4b13f6cfd1610290b9f672bf15fc62413661e371fdcde801227d30987b"}, "test": {"articles": 324, "paragraphs": 2069, "tokens": 128467, "bytes": 763262, "oov_tokens": 4962, "sha256": "5a67f0e1440efdfd80ac1848b17d4c497d6dccfc7d6b8c4cece50b656f118353"}}
+TRAIN n=2 repeat=1 seconds=3.7969
+TRAIN n=3 repeat=1 seconds=15.2321
+TRAIN n=5 repeat=1 seconds=27.9223
+TRAIN n=3 repeat=2 seconds=16.0243
+TRAIN n=5 repeat=2 seconds=27.3303
+TRAIN n=2 repeat=2 seconds=4.3509
+TRAIN n=5 repeat=3 seconds=26.8845
+TRAIN n=2 repeat=3 seconds=3.6169
+TRAIN n=3 repeat=3 seconds=15.7239
+BINARY n=2 seconds=0.1505
+BINARY n=3 seconds=0.3979
+BINARY n=5 seconds=1.1061

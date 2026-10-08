@@ -1,0 +1,20 @@
+[
+  {
+    "order": 2,
+    "sentences_checked": 5,
+    "max_log10_score_error": 0.00012512000012065982,
+    "passed": true
+  },
+  {
+    "order": 3,
+    "sentences_checked": 5,
+    "max_log10_score_error": 1.4329000066481967e-05,
+    "passed": true
+  },
+  {
+    "order": 5,
+    "sentences_checked": 5,
+    "max_log10_score_error": 4.5424000063576386e-05,
+    "passed": true
+  }
+]

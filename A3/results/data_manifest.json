@@ -1,0 +1,64 @@
+{
+  "source": "199801.txt (supplied locally with --source)",
+  "sha256": "41760f40739b0f301ab29e99ab14565e7cd4b06128eb3a6ac18bce277a6075a8",
+  "encoding": "utf-8-sig",
+  "month": "1998-01",
+  "input_bytes": 10666468,
+  "raw_lines": 22564,
+  "blank_lines": 3080,
+  "nonempty_paragraphs": 19484,
+  "articles": 3148,
+  "split_seed": 20261008,
+  "split_rule": "SHA256(seed:article_id) modulo 100, train<80/dev<90/test otherwise",
+  "removed_document_ids": 19484,
+  "removed_pos_tags": 1120721,
+  "removed_entity_wrappers": 9183,
+  "removed_extra_markers": 51,
+  "train_lexical_types": 49268,
+  "train_annotated_types": 57601,
+  "raw_tagged_training_tokens": 889381,
+  "cleaner_checks": "passed: compound entity, literal brackets/slash, URL, uppercase tag, extra /%, malformed entity",
+  "duplicates_removed": {
+    "train": 360,
+    "dev": 50,
+    "test": 75
+  },
+  "splits": {
+    "train": {
+      "articles": 2535,
+      "paragraphs": 15205,
+      "tokens": 889381,
+      "bytes": 5286340,
+      "oov_tokens": 0,
+      "sha256": "c9a03086ddda6c0b0b30f03033e5c4d20cec06d597a30ec3e030e2abca8f4e82"
+    },
+    "dev": {
+      "articles": 287,
+      "paragraphs": 1725,
+      "tokens": 100721,
+      "bytes": 601261,
+      "oov_tokens": 3541,
+      "sha256": "d59e9a4b13f6cfd1610290b9f672bf15fc62413661e371fdcde801227d30987b"
+    },
+    "test": {
+      "articles": 324,
+      "paragraphs": 2069,
+      "tokens": 128467,
+      "bytes": 763262,
+      "oov_tokens": 4962,
+      "sha256": "5a67f0e1440efdfd80ac1848b17d4c497d6dccfc7d6b8c4cece50b656f118353"
+    }
+  },
+  "examples": [
+    {
+      "raw": "迈向/v 充满/v 希望/n 的/u 新/a 世纪/n ——/w 一九九八年/t 新年/t 讲话/n （/w 附/v 图片/n １/m 张/q ）/w",
+      "clean": "迈向 充满 希望 的 新 世纪 —— 一九九八年 新年 讲话 （ 附 图片 １ 张 ）",
+      "paragraph_id": "19980101-01-001-001"
+    },
+    {
+      "raw": "中共中央/nt 总书记/n 、/w 国家/n 主席/n 江/nr 泽民/nr",
+      "clean": "中共中央 总书记 、 国家 主席 江 泽民",
+      "paragraph_id": "19980101-01-001-002"
+    }
+  ]
+}

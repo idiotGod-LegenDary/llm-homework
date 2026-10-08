@@ -1,0 +1,25 @@
+EVAL {"order": 2, "arpa_bytes": 11154707, "binary_bytes": 8712051, "dev": {"ppl_including_oov": 612.5480085970016, "ppl_excluding_oov": 469.75695918569136, "oovs": 3541, "tokens": 102446}, "test": {"ppl_including_oov": 664.3557303428012, "ppl_excluding_oov": 496.68473524064973, "oovs": 4962, "tokens": 130536}}
+EVAL {"order": 3, "arpa_bytes": 37486807, "binary_bytes": 23781107, "dev": {"ppl_including_oov": 494.59649280826716, "ppl_excluding_oov": 376.69983526937153, "oovs": 3541, "tokens": 102446}, "test": {"ppl_including_oov": 547.3418244110114, "ppl_excluding_oov": 406.42208944427676, "oovs": 4962, "tokens": 130536}}
+EVAL {"order": 5, "arpa_bytes": 119103740, "binary_bytes": 62366955, "dev": {"ppl_including_oov": 479.46692500528155, "ppl_excluding_oov": 365.04858572530486, "oovs": 3541, "tokens": 102446}, "test": {"ppl_including_oov": 534.5484790284357, "ppl_excluding_oov": 396.87480139489367, "oovs": 4962, "tokens": 130536}}
+GENERATED n=2, ARPA score cross-check max_error=0.0001251
+GENERATED n=3, ARPA score cross-check max_error=0.0000143
+GENERATED n=5, ARPA score cross-check max_error=0.0000454
+# A3 实验结果
+
+## 数据
+
+| 集合 | 文章 | 段落 | 词 token | OOV token |
+|---|---:|---:|---:|---:|
+| train | 2535 | 15205 | 889381 | 0 |
+| dev | 287 | 1725 | 100721 | 3541 |
+| test | 324 | 2069 | 128467 | 4962 |
+
+## 阶数、训练时间与测试指标
+
+每个阶数重复三次，时间为 wall time；PPL 为 query 输出中包含 OOV 的值，包含各段落的 EOS。
+
+| n | 三次训练时间（秒） | 平均 ± 标准差（秒） | ARPA MiB | 二进制 MiB | 验证 PPL | 测试 PPL |
+|---:|---|---|---:|---:|---:|---:|
+| 2 | 3.797, 4.351, 3.617 | 3.922 ± 0.383 | 10.64 | 8.31 | 612.548 | 664.356 |
+| 3 | 15.232, 16.024, 15.724 | 15.660 ± 0.400 | 35.75 | 22.68 | 494.596 | 547.342 |
+| 5 | 27.922, 27.330, 26.885 | 27.379 ± 0.521 | 113.59 | 59.48 | 479.467 | 534.548 |

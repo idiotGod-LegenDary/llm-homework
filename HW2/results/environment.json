@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "machine": "AMD64",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "gensim": "4.4.0",
+    "fasttext-wheel": "0.9.2",
+    "jieba": "0.42.1",
+    "matplotlib": "3.10.7",
+    "scikit-learn": "1.6.1"
+  },
+  "PYTHONHASHSEED": "0",
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1"
+}

@@ -1,0 +1,15 @@
+{
+  "reason": "Scratch baseline was weak; check training budget without retuning the primary comparison",
+  "additional_trainings": 2,
+  "epochs": [
+    100,
+    250
+  ],
+  "seed": 42,
+  "fixed_test_documents": 96,
+  "prediction_rows": 1920,
+  "test_prediction_rows": 384,
+  "train_prediction_rows": 1536,
+  "seconds": 28.560274200000094,
+  "new_training_seconds": 27.772014699999545
+}

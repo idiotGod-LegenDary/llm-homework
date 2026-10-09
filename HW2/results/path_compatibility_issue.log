@@ -1,0 +1,16 @@
+PREPARED {"raw_documents": 10000, "raw_by_label": {"体育": 1250, "财经": 1250, "教育": 1250, "娱乐": 1250, "科技": 1250, "房产": 1250, "游戏": 1250, "时政": 1250}, "retained_documents": 9772, "retained_by_label": {"体育": 1239, "财经": 1245, "教育": 1215, "娱乐": 1232, "科技": 1236, "房产": 1228, "游戏": 1173, "时政": 1204}, "rejected": {"short_or_empty_body": 170, "fewer_than_50_tokens": 26, "duplicate_body": 13, "duplicate_first_200_chars": 19}, "representation_documents": 9676, "representation_sentences": 259322, "representation_tokens": 5721536, "classifier_train": 384, "classifier_test": 96, "unlabeled_documents": 9292, "prepare_seconds": 28.51370760000009, "title_included": false, "deduplication": "whitespace-normalized complete body and first 200 characters; no exhaustive semantic near-duplicate detection", "split_seed": 42, "split_method": "SHA256 sorting of seed and category/file ID; first 12 test, next 48 train", "maximum_classification_tokens": 500, "data_sha256": {"2_test.txt": "d5d1fdbec258157ca7dcb98424a2a2bd1f80dc7f172914afdddfce17262ecb50", "2_train.txt": "1b6975bebcd9e232c20e1b28af960a149710685cb112b4d445e1a26664dec89f", "4_test.txt": "8bd59e923a72a41e74b39d141d66bf5567e31938cabfd840892fab9e0867927d", "4_train.txt": "a00a7363aabd875ecb68421320c9d929dee37f45121f80405a076bc8096241c9", "8_test.txt": "ddd26fa833581c909d45f4750f85d6464d584f6b9c8ebbac537a46a43cd35c0d", "8_train.txt": "913402a503dd757c765eb855f0e35cb9fad9bee2d6e70b6213e696b18c56972f", "representation.txt": "23969f6c7ba7d2f3d17a9e918bd1d78199508dd50f929702445752da067f5bcd"}}
+EMBEDDING Word2Vec 59182 139.05
+EMBEDDING FastText 59182 184.47
+Traceback (most recent call last):
+  File ".\scripts\run_experiment.py", line 186, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File ".\scripts\run_experiment.py", line 183, in main
+    docs,splits=prepare();representations();metrics,reports,repeat=classification(docs,splits);plot(metrics,reports)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".\scripts\run_experiment.py", line 123, in classification
+    start=time.perf_counter();model=fasttext.train_supervised(input=str(DATA/f'{n}_train.txt'),**kwargs);seconds=time.perf_counter()-start
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".\.venv\Lib\site-packages\fasttext\FastText.py", line 528, in train_supervised
+    fasttext.train(ft.f, a)
+ValueError: .\data\processed\2_train.txt cannot be opened for training!

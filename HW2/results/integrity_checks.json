@@ -1,0 +1,27 @@
+{
+  "train_test_ids_disjoint": true,
+  "test_excluded_from_representation": true,
+  "unique_body_hash": true,
+  "unique_prefix_hash": true,
+  "test_size_per_class": {
+    "体育": 12,
+    "财经": 12,
+    "教育": 12,
+    "娱乐": 12,
+    "科技": 12,
+    "房产": 12,
+    "游戏": 12,
+    "时政": 12
+  },
+  "train_size_per_class": {
+    "体育": 48,
+    "财经": 48,
+    "教育": 48,
+    "娱乐": 48,
+    "科技": 48,
+    "房产": 48,
+    "游戏": 48,
+    "时政": 48
+  },
+  "nested_splits": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "metrics_recomputed": 18,
+  "diagnostic_conditions_recomputed": 4,
+  "diagnostic_test_rows": 384,
+  "diagnostic_train_rows": 1536,
+  "primary_seed": 42,
+  "prediction_rows": 1008,
+  "repeat_rows": 96,
+  "repeat_check": "per-prediction equality asserted inside the training process; metadata checked here",
+  "independent_test_documents": 96,
+  "split_checks": "unique IDs, body hashes and prefix hashes; 48/12 per category; nested test subsets; all test excluded from representation",
+  "verification": "independent arithmetic reconstruction of accuracy, macro F1 and confusion matrices from predictions"
+}

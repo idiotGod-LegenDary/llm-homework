@@ -1,0 +1,9 @@
+{
+  "classes": 8,
+  "initialization": "pretrained",
+  "seed": 42,
+  "test_documents": 96,
+  "identical_predictions": true,
+  "matching_predictions": 96,
+  "seconds": 6.154234600000109
+}

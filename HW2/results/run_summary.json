@@ -1,0 +1,12 @@
+{
+  "total_seconds": 99.60815730000013,
+  "timed_phases_seconds": 414.79429490000075,
+  "reused_completed_embeddings": true,
+  "embedding_trainings": 2,
+  "classification_trainings": 19,
+  "primary_comparisons": 6,
+  "extra_seed_trainings": 12,
+  "repeat_trainings": 1,
+  "independent_test_documents": 96,
+  "total_test_predictions": 1104
+}

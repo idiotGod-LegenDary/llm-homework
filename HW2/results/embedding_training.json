@@ -1,0 +1,32 @@
+{
+  "Word2Vec": {
+    "seconds": 139.04942180000012,
+    "vocabulary": 59182,
+    "settings": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 3,
+      "workers": 1,
+      "sg": 1,
+      "epochs": 5,
+      "seed": 42
+    }
+  },
+  "FastText": {
+    "seconds": 184.47418119999998,
+    "vocabulary": 59182,
+    "settings": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 3,
+      "workers": 1,
+      "sg": 1,
+      "epochs": 5,
+      "seed": 42,
+      "min_n": 2,
+      "max_n": 4,
+      "bucket": 200000
+    },
+    "vec_sha256": "1e275c7ec90a4e78f4a47c065ff2c56df16bc216d086f9508c94ff9f2a4f9c50"
+  }
+}

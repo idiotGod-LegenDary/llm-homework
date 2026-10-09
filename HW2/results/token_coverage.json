@@ -1,0 +1,8 @@
+{
+  "test_token_count": 32636,
+  "supervised_train_token_coverage": 0.8890489030518446,
+  "pretrained_vocabulary_token_coverage": 0.97668219144503,
+  "vec_header": "59182 100",
+  "supervised_train_unique_tokens": 19535,
+  "pretrained_unique_words": 59182
+}

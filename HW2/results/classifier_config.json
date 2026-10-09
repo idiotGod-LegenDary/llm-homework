@@ -1,0 +1,31 @@
+{
+  "common": {
+    "dim": 100,
+    "lr": 0.3,
+    "epoch": 25,
+    "wordNgrams": 2,
+    "loss": "softmax",
+    "thread": 1,
+    "minn": 0,
+    "maxn": 0,
+    "bucket": 200000,
+    "minCount": 1,
+    "verbose": 0
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "pretrained_source": "Gensim FastText vocabulary vectors only; no character bucket parameters transferred",
+  "labels": [
+    "体育",
+    "财经",
+    "教育",
+    "娱乐",
+    "科技",
+    "房产",
+    "游戏",
+    "时政"
+  ]
+}

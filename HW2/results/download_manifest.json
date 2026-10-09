@@ -1,0 +1,111 @@
+{
+  "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+  "per_class": 1250,
+  "seconds": 10.237659399999984,
+  "files": [
+    {
+      "label": "体育",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E4%BD%93%E8%82%B2.jsonl",
+      "records": 1250,
+      "bytes_saved": 3528477,
+      "sha256": "1158c0a56a675801447a94849484379e356270eb656a806a6ed5bbb6353e3bfd",
+      "etag": "\"0514fa7cd9136c9bc77b2e5acbe1703c4a1648ac867969c3c121a582dfb22c82\"",
+      "content_range": "bytes 0-14999999/403371070",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-3528476",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "财经",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E8%B4%A2%E7%BB%8F.jsonl",
+      "records": 1250,
+      "bytes_saved": 5371475,
+      "sha256": "91da415d28c694049865db091e759ae0a034fddc32b133e9167350251a60dd61",
+      "etag": "\"272325448b617863eb083eea7bbfd3eead2016f7d2097991bfdd006be323d1a5\"",
+      "content_range": "bytes 0-14999999/125513829",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-5371474",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "教育",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E6%95%99%E8%82%B2.jsonl",
+      "records": 1250,
+      "bytes_saved": 4728596,
+      "sha256": "0ccc32dd55e349fcde91a6b0990b05754197e9007ea123fcc07338be2069fff8",
+      "etag": "\"0352a9c9d326b437c9d123c85a1121a9700c3f3c0ca94a4061c7a2e658313997\"",
+      "content_range": "bytes 0-14999999/151403113",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-4728595",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "娱乐",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E5%A8%B1%E4%B9%90.jsonl",
+      "records": 1250,
+      "bytes_saved": 3972110,
+      "sha256": "1533d9921138a582df31ca5d9f4f514b67fdb6aede54ba614089fdbb94d33747",
+      "etag": "\"f1ac62c70d9fa7fde3f4714d84d6a13c94adce6853d2a3f78124e493187fb08b\"",
+      "content_range": "bytes 0-14999999/222136632",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-3972109",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "科技",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E7%A7%91%E6%8A%80.jsonl",
+      "records": 1250,
+      "bytes_saved": 4102572,
+      "sha256": "84b5f433a7e79bbf129a48c865f823f92ef566e991a2634823b601d942399e62",
+      "etag": "\"2129f4ef71e0ec61a1922cb21eb51633521f973c9a5febe538c6dad67e5453a3\"",
+      "content_range": "bytes 0-14999999/407870046",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-4102571",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "房产",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E6%88%BF%E4%BA%A7.jsonl",
+      "records": 1250,
+      "bytes_saved": 7422393,
+      "sha256": "25ac716fe3d6d4e4ec26ae4467482d5163aad0b4e9f588bd451a85b085cecbba",
+      "etag": "\"a1d0c774e6480b283e6d1bce1a2dacc81bf8e21f7b1bed3f7905374199060ccd\"",
+      "content_range": "bytes 0-14999999/54569213",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-7422392",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "游戏",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E6%B8%B8%E6%88%8F.jsonl",
+      "records": 1250,
+      "bytes_saved": 3166753,
+      "sha256": "84fefeecdf09b9ac1adb24989e298f4167daf2737b4371c7ea2ac1438b734436",
+      "etag": "\"8287bb1b869b88feda6696119863b3988d918fe3aa6183a6cb0c024bb8f1cc60\"",
+      "content_range": "bytes 0-14999999/60252410",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-3166752",
+      "selection": "first complete records in category file; not population-random"
+    },
+    {
+      "label": "时政",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E6%97%B6%E6%94%BF.jsonl",
+      "records": 1250,
+      "bytes_saved": 2527140,
+      "sha256": "5cd4c46e7ca9440a0e2ee10ff8102840b78ca732579064bbd7addd5b3f4e0ecd",
+      "etag": "\"574d0b498a62eddea1b14013a04f2114af73d5b047d61099f2f1c919df170941\"",
+      "content_range": "bytes 0-14999999/128032662",
+      "requested_range": "bytes=0-14999999",
+      "saved_range": "bytes=0-2527139",
+      "selection": "first complete records in category file; not population-random"
+    }
+  ]
+}

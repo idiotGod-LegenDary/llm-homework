@@ -22,3 +22,8 @@ A3/tools/*.tar.gz
 .idea/
 .DS_Store
 Thumbs.db
+
+# HW2 local data and trained models
+HW2/data/
+HW2/models/
+HW2/*.zip

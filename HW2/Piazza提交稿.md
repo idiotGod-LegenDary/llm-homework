@@ -79,7 +79,7 @@ Gensim FastText 利用字符片段合成词表外向量，能返回数值不等�
 | 4 | 46/48；0.958 / 0.958 | 22/48；0.458 / 0.319 |
 | 8 | 84/96；0.875 / 0.872 | 31/96；0.323 / 0.187 |
 
-![分类结果](results/classification_scores.png)
+![分类结果](https://raw.githubusercontent.com/idiotGod-LegenDary/llm-homework/main/HW2/results/classification_scores.png)
 
 ### 2. 分类随机性的检查
 
@@ -113,7 +113,7 @@ Gensim FastText 利用字符片段合成词表外向量，能返回数值不等�
 
 ### 4. 错误分析
 
-![8 类混淆矩阵](results/classification_confusion_8.png)
+![8 类混淆矩阵](https://raw.githubusercontent.com/idiotGod-LegenDary/llm-homework/main/HW2/results/classification_confusion_8.png)
 
 8 类、种子 42 的预训练模型错了 **12 篇**：教育 4 篇、娱乐 2 篇、科技 1 篇、房产 3 篇、游戏 2 篇；体育、财经和时政的这批测试样本均正确。逐篇 ID、标题、预测、概率和正文片段在 `errors_8_pretrained.csv`，没有把标题作为分类输入。
 
@@ -139,7 +139,7 @@ Gensim FastText 利用字符片段合成词表外向量，能返回数值不等�
 - 验证：检查文章 ID、正文哈希、前缀哈希唯一，测试集排除于词向量语料，监督训练／测试隔离及嵌套划分；从逐条预测独立复算 18 行准确率、宏 F1 和混淆矩阵，结果一致；另从保存预测复算 4 个收敛条件的训练准确率、测试准确率、测试宏 F1 与混淆矩阵。重复运行的逐条相等在训练进程内断言，再核对保存记录。
 - 主流程已计时的预处理、表示模型构建训练、分类训练与预测合计约 414.8 秒；不包含下载、安装、模型存盘、绘图、失败调试和文稿整理。
 
-收敛诊断另记录 4 个模型条件的评估和 2 次新增训练耗时。完整数值、日志和逐条预测见 `results/`；输入哈希在 `data_statistics.json`，逐篇划分在 `document_manifest.csv`。复现步骤见 [REPRODUCE.md](REPRODUCE.md)，来源与局限见 [DATA.md](DATA.md)。
+收敛诊断另记录 4 个模型条件的评估和 2 次新增训练耗时。完整数值、日志和逐条预测见 `results/`；输入哈希在 `data_statistics.json`，逐篇划分在 `document_manifest.csv`。复现步骤见 [REPRODUCE.md](https://github.com/idiotGod-LegenDary/llm-homework/blob/main/HW2/REPRODUCE.md)，来源与局限见 [DATA.md](https://github.com/idiotGod-LegenDary/llm-homework/blob/main/HW2/DATA.md)。
 
 ## 五、结论边界与后续工作
 

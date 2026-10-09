@@ -103,5 +103,8 @@ f'- 主流程已计时的预处理、表示模型构建训练、分类训练与�
 '本次使用每类 48 篇监督训练、12 篇留出测试。文件前缀采样、固定划分、跨主题报道和未排除的同事件改写都限制了结论。三个分类种子只检查训练随机性；没有评测领域外新闻，也没有训练 Doc2Vec 或系统调整数据规模。这些可以作为后续扩展，不能算入已完成结果。','',
 '公开代码与报告：[llm-homework / HW2](https://github.com/idiotGod-LegenDary/llm-homework/tree/main/HW2)。仓库包含脚本、依赖、报告、图和结果，完整语料及模型由本地脚本生成。尚未提交 Piazza。','']
 text='\n'.join(lines)
-(ROOT/'README.md').write_text(text,encoding='utf8');(ROOT/'Piazza提交稿.md').write_text(text,encoding='utf8')
+(ROOT/'README.md').write_text(text,encoding='utf8')
+piazza=text
+for old,new in {'(results/classification_scores.png)': '(https://raw.githubusercontent.com/idiotGod-LegenDary/llm-homework/main/HW2/results/classification_scores.png)', '(results/classification_confusion_8.png)': '(https://raw.githubusercontent.com/idiotGod-LegenDary/llm-homework/main/HW2/results/classification_confusion_8.png)', '(REPRODUCE.md)': '(https://github.com/idiotGod-LegenDary/llm-homework/blob/main/HW2/REPRODUCE.md)', '(DATA.md)': '(https://github.com/idiotGod-LegenDary/llm-homework/blob/main/HW2/DATA.md)'}.items():piazza=piazza.replace(old,new)
+(ROOT/'Piazza提交稿.md').write_text(piazza,encoding='utf8')
 print('Report tables generated from completed results')
